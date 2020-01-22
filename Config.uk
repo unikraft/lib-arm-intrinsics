@@ -1,0 +1,10 @@
+menuconfig LIBARM_INTRINSICS
+    bool "Arm Neon Intrinsics"
+    default n
+
+if LIBARM_INTRINSICS
+
+config LIBARM_INTRINSICS_GCC
+	bool "Use the intrinsics from GCC (GNUv3)"
+	default y
+endif
