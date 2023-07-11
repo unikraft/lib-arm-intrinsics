@@ -1,0 +1,4 @@
+name        := "arm-intrinsics"
+description := "Built-in intrinsics for the ARM Advanced SIMD extension are available when the -mfpu=neon switch is used."
+website     := "https://developer.arm.com/documentation/den0018/a/NEON-Intrinsics/Introduction?lang=en"
+license     := "GPL-3.0"
